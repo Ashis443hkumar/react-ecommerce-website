@@ -1,0 +1,40 @@
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+}
+.hero_left{
+  width: 48%;
+}
+.hero_left h5{
+  color: blueviolet;
+  font-size: 14px;
+  font-weight: 600;
+}
+.hero_left h1{
+  font-size: 52px;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+.hero_left p{
+  font-size: 17px;
+  padding-bottom: 12px;
+}
+.hero-btn{
+  padding: 15px 23px;
+  color: #ffff;
+  background-color: blueviolet;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hero_right{
+  width: 48%;
+}
+.hero_right img{
+  width: 100%;
+}

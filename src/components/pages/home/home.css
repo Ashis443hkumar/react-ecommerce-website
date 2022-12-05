@@ -1,0 +1,53 @@
+.homeService{
+  padding: 30px 5%;
+  background-color: #eee;
+
+}
+.heading{
+  text-align: center;
+  padding: 30px 0;
+}
+
+.service{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Service-box{
+  position: relative;
+  flex-basis: 31.33%;
+  padding: 14px;
+  background-color: #fff;
+  transition: all 0.2s ;
+ 
+}
+.Service-box div{
+  flex-basis: 23.33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.Service-box h3{
+  background-color: #fff;
+  padding: 10px 23px;
+  border-radius: 20px;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  font-size: 19px;
+  color: purple;
+  font-weight: 300;
+
+}
+
+.Service-box img{
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.Service-box:hover img{
+   transform: scale(1.1);  
+   object-fit: cover;
+}
